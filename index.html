@@ -6,7 +6,8 @@
         <div><h1>Predictive Neural Speech Coding</h1></div>
 
         <div>
-            <div><img src="img/mushra.png" style="width: 280px"></div>
+            <div><img src="img/mushra2.png" style="width: 280px"> <img src="img/mushra.png" style="width: 280px"></div>
+
         </div>
 
         <div>
@@ -27,17 +28,18 @@
                             <th style="width:300px"><audio src="audio/encodec-6k/SI764.wav" controls="controls"></audio></th>
                         </tr>
                         <tr>
-                            <th></th>
                             <th style="width:300px">TF-Codec@1kbps</th>
                             <th style="width:300px">TF-Codec@3kbps</th>
                             <th style="width:300px">TF-Codec@6kbps</th> 
+                            <th style="width:300px">Opus@16kbps</th> 
                         </tr>
 
                         <tr>
-                            <th></th>
+                           
                             <th style="width:300px"><audio src="audio/tf-codec-1k/SI764.wav" controls="controls"></audio></th>
                             <th style="width:300px"><audio src="audio/tf-codec-3k/SI764.wav" controls="controls"></audio></th> 
                             <th style="width:300px"><audio src="audio/tf-codec-6k/SI764.wav" controls="controls"></audio></th>
+                            <th style="width:300px"><audio src="audio/opus16k/SI764.wav" controls="controls"></audio></th>
                         </tr>
         
                     </tbody>
@@ -59,17 +61,19 @@
                             <th style="width:300px"><audio src="audio/encodec-6k/SI458.wav" controls="controls"></audio></th>
                         </tr>
                         <tr>
-                            <th></th>
+                           
                             <th style="width:300px">TF-Codec@1kbps</th>
                             <th style="width:300px">TF-Codec@3kbps</th>
                             <th style="width:300px">TF-Codec@6kbps</th> 
+                            <th style="width:300px">Opus@16kbps</th> 
                         </tr>
 
                         <tr>
-                            <th></th>
+                    
                             <th style="width:300px"><audio src="audio/tf-codec-1k/SI458.wav" controls="controls"></audio></th>
                             <th style="width:300px"><audio src="audio/tf-codec-3k/SI458.wav" controls="controls"></audio></th> 
                             <th style="width:300px"><audio src="audio/tf-codec-6k/SI458.wav" controls="controls"></audio></th>
+                            <th style="width:300px"><audio src="audio/opus16k/SI458.wav" controls="controls"></audio></th>
                         </tr>
                     </tbody>
                 </table>
@@ -90,17 +94,17 @@
                             <th style="width:300px"><audio src="audio/encodec-6k/015.wav" controls="controls"></audio></th>
                         </tr>
                         <tr>
-                            <th></th>
                             <th style="width:300px">TF-Codec@1kbps</th>
                             <th style="width:300px">TF-Codec@3kbps</th>
                             <th style="width:300px">TF-Codec@6kbps</th> 
+                            <th style="width:300px">Opus@16kbps</th> 
                         </tr>
 
                         <tr>
-                            <th></th>
                             <th style="width:300px"><audio src="audio/tf-codec-1k/015.wav" controls="controls"></audio></th>
                             <th style="width:300px"><audio src="audio/tf-codec-3k/015.wav" controls="controls"></audio></th> 
                             <th style="width:300px"><audio src="audio/tf-codec-6k/015.wav" controls="controls"></audio></th>
+                            <th style="width:300px"><audio src="audio/opus16k/015.wav" controls="controls"></audio></th>
                         </tr>
 
                     </tbody>
@@ -122,27 +126,27 @@
                             <th style="width:300px"><audio src="audio/encodec-6k/004.wav" controls="controls"></audio></th>
                         </tr>
                         <tr>
-                            <th></th>
                             <th style="width:300px">TF-Codec@1kbps</th>
                             <th style="width:300px">TF-Codec@3kbps</th>
                             <th style="width:300px">TF-Codec@6kbps</th> 
+                            <th style="width:300px">Opus@16kbps</th> 
                         </tr>
 
                         <tr>
-                            <th></th>
                             <th style="width:300px"><audio src="audio/tf-codec-1k/004.wav" controls="controls"></audio></th>
                             <th style="width:300px"><audio src="audio/tf-codec-3k/004.wav" controls="controls"></audio></th> 
                             <th style="width:300px"><audio src="audio/tf-codec-6k/004.wav" controls="controls"></audio></th>
+                            <th style="width:300px"><audio src="audio/opus16k/004.wav" controls="controls"></audio></th>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
-        
-        <div><h2>Ablation studies </h2></div>
+        <div></div>
+        <div style="margin-top: 50px;"><h1>Ablation studies </h1></div>
   
         <div>
-            <div style="margin-top: 100px;"><h2>Predictive TF-Codec vs. Non-predictive TF-Codec </h2></div>
+            <div style="margin-top: 50px;"><h2>Predictive TF-Codec vs. Non-predictive TF-Codec </h2></div>
             <div>
                 <table>
                     <tbody>
@@ -157,7 +161,7 @@
                             <th style="width:300px"><audio src="audio/tf-codec-3k/SI764.wav" controls="controls"></audio></th>
                         </tr>
     
-                        <tr>
+                        <!-- <tr>
                             <th style="width:300px"><audio src="audio/reference/SI1040.wav" controls="controls"></audio></th>    
                             <th style="width:300px"><audio src="audio/tf-codec-3k-2/SI1040.wav" controls="controls"></audio></th>
                             <th style="width:300px"><audio src="audio/tf-codec-3k/SI1040.wav" controls="controls"></audio></th>
@@ -167,7 +171,7 @@
                             <th style="width:300px"><audio src="audio/reference/SI1146.wav" controls="controls"></audio></th>
                             <th style="width:300px"><audio src="audio/tf-codec-3k-2/SI1146.wav" controls="controls"></audio></th>
                             <th style="width:300px"><audio src="audio/tf-codec-3k/SI1146.wav" controls="controls"></audio></th>
-                        </tr>
+                        </tr> -->
                         
                         <tr>
                             <th style="width:300px"><audio src="audio/reference/015.wav" controls="controls"></audio></th>
